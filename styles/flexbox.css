@@ -17,6 +17,7 @@
     margin: 10px;
     padding: 7px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: black;
 }
 
 .flexbox-container:hover{
