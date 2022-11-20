@@ -1,4 +1,4 @@
-.flexbox-container {
+.container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -10,22 +10,23 @@
 
 }
 
-.flexbox-item {
+.item {
     transition: 1s;
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 100%;
     margin: 10px;
     padding: 7px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: black;
 }
 
-.flexbox-container:hover{
+.container:hover{
     transition: 1s;
     background-color: rgba(56, 58, 69, 0.5);
 }
 
 .sub {
+    
     flex-direction: column;
     padding: 7px;
     background-color: inherit;
@@ -46,8 +47,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.sub a{
+    display: flexbox;
+    vertical-align: center;
+}
+
 .sub img {
-    width: 35px;
-    max-height: auto;
+    width: 30px;
+    display: flexbox;
+        vertical-align: center;
     border-radius: 100%;
 }

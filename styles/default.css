@@ -9,7 +9,7 @@
 .logo {
     font-size: 15vw;
     margin-top: 25vh;
-    margin-bottom: 35vh;
+    margin-bottom: 34.5vh;
 }
 
 .photo {
@@ -19,11 +19,11 @@
     vertical-align: top;
     margin-top: 5px;
     align-content: center;
-    text-align: center;
 }
 
 .desc {
-    width: inherit;
+    min-width: inherit;
+    width: 100%;
     height: inherit;
     font-size: 20px;
     background-color: rgba(78, 79, 87, 0.3);
