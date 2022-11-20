@@ -1,0 +1,52 @@
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgba(56, 58, 69, 0.3);
+    transition: 1s;
+    border-radius: 10px;
+    margin-bottom: 7vh;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.flexbox-item {
+    transition: 1s;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 10px;
+    padding: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flexbox-container:hover{
+    transition: 1s;
+    background-color: rgba(56, 58, 69, 0.5);
+}
+
+.sub {
+    flex-direction: column;
+    padding: 7px;
+    background-color: inherit;
+    align-content: space-between;
+}
+
+.sub-1 {
+    flex-direction: column;
+    padding: 7px;
+    background-color: inherit;
+    align-content: space-between;
+}
+
+.sub p {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub img {
+    width: 35px;
+    max-height: auto;
+    border-radius: 100%;
+}

@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    font-size: 15vw;
+    margin-top: 25vh;
+    margin-bottom: 35vh;
+}
+
+.photo {
+    border-radius: 100%;
+    height: auto;
+    width: 128px;
+    vertical-align: top;
+    margin-top: 5px;
+    align-content: center;
+    text-align: center;
+}
+
+.desc {
+    width: inherit;
+    height: inherit;
+    font-size: 20px;
+    background-color: rgba(78, 79, 87, 0.3);
+}
+
+.flag{
+    width: 30px;
+    max-height: auto;
+    border-radius: 3%;
+}
