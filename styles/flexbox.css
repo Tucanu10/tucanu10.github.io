@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-color: rgba(56, 58, 69, 0.3);
+    background-color: rgba(56, 58, 69, 0.6);
     transition: 1s;
     border-radius: 10px;
     margin-bottom: 7vh;
@@ -14,15 +14,15 @@
     transition: 1s;
     border-radius: 10px;
     max-width: 100%;
-    margin: 10px;
-    padding: 7px;
+    margin: auto;
+    padding: 6px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: black;
 }
 
 .container:hover{
     transition: 1s;
-    background-color: rgba(56, 58, 69, 0.5);
+    background-color: rgba(56, 58, 69, 1);
 }
 
 .sub {
@@ -55,6 +55,6 @@
 .sub img {
     width: 30px;
     display: flexbox;
-        vertical-align: center;
+    vertical-align: center;
     border-radius: 100%;
 }

@@ -7,9 +7,21 @@
 }
 
 .logo {
-    font-size: 15vw;
-    margin-top: 25vh;
-    margin-bottom: 34.5vh;
+    font-size: 15vh;
+    margin-top: 34.5vh;
+    margin-bottom: 37.5vh;
+}
+
+.thumbnail-logo {
+    margin-top: 34.5vh;
+    margin-bottom: 37.5vh;
+}
+
+.thumbnail {
+    width: auto;
+    height: 20vh;
+    vertical-align: top;
+    align-content: center;
 }
 
 .photo {
@@ -22,14 +34,13 @@
 }
 
 .desc {
-    min-width: inherit;
     width: 100%;
     height: inherit;
     font-size: 20px;
     background-color: rgba(78, 79, 87, 0.3);
 }
 
-.flag{
+.flag {
     width: 30px;
     max-height: auto;
     border-radius: 3px;
