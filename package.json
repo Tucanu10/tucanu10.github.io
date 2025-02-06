@@ -1,12 +1,10 @@
 {
   "name": "tucanu10.github.io",
   "version": "0.1.0",
-  "homepage": "https://tucanu10.github.io",
-  "private": false,
+  "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && next export",
-    "postbuild": "mv out/index.html out/404.html || true",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
